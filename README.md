@@ -42,7 +42,7 @@ $service->handle();
 
 ```php
 /* 客户端 */
-$client = new rpcClient("http://localhost/mygithub/rpc/rpc/src/rpc.php?m=1");
+$client = new rpcClient("http://localhost/rpcserver/");
 
 $result = $client->api0();
 //不存在的方法，返回：ERROR
